@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    z-index:0;
+}
+nav{
+    display:flex;
+    background-color:#000;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:100vw;
+    height:60px;
+    flex-wrap: wrap;
+  
+    
+}
+nav a img{
+    height:35px;
+    width:35px;
+    
+    margin-left:60px;
+
+}
+nav a{
+    text-transform:capitalize;
+    text-decoration:none;
+    color:#888;
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 1rem;
+}
+#container1{
+    height:74px;
+    width:100vw;
+    background-color:#111;
+    display:flex;
+    flex-wrap:wrap;
+    
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+  
+
+}
+
+main a{
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size:12px;
+    font-family:'Roboto';
+    color:#ffffff; 
+    padding: 18px 30px;
+    text-align:center;
+
+    
+}
+
+main a:hover{
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size:12px;
+    font-family:'Roboto';
+    color:#44D62C; 
+    padding: 18px 30px;
+
+}
+nav a:hover{
+    text-transform:capitalize;
+    text-decoration:none;
+    color:#ffffff;
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 1rem;
+
+}
+#content{
+    color:#44D62C;
+}
+
+#container2{
+    height:102px;
+    width:100vw;
+    background-color:#111;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+    
+    align-content:center;
+    justify-content:space-between;
+    border-bottom:2px solid #44D62C;
+}
+#container3{
+    height:44px;
+    width:100vw;
+    background-color:#555;
+    color:#999;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    text-align:center;
+    line-height:20px;
+}
+main img{
+    height:36px;
+    width:48px;
+}
+.shopnow{  
+    color:#999;
+    font-family: Roboto,sans-serif;
+    
+
+}
+.shopnow:hover{
+    color:#999;
+    font-family: Roboto,sans-serif;
+    text-decoration-line:underline;
+    
+}
+#banner{
+    height:337px;
+    width:100vw;
+    background-size:contain;
+    background-image:url('banner.png');
+    
+    background-repeat:no-repeat;
+    
+}
+#mooray{
+    margin-left:130px;
+}
+#accessories{
+    margin-right:130px;
+}
+#kitty{
+    color:#44D62C;
+
+}
+
